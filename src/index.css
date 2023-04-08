@@ -50,6 +50,64 @@ button {
 button:hover {
   border-color: #646cff;
 }
+
+downloadBtn {
+  /* downloadbtn */
+
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 1100px;
+  top: 30px;
+
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 1100px;
+  top: 30px;
+
+  background: #f2ae30;
+  border-radius: 5px;
+
+  /* download */
+
+  position: absolute;
+  width: 163px;
+  height: 30px;
+  left: 1118px;
+  top: 37px;
+
+  /* get me the app */
+
+  position: absolute;
+  width: 128.2px;
+  height: 30px;
+  left: 1152.8px;
+  top: 37px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #592b02;
+
+  /* download 1 */
+
+  position: absolute;
+  width: 27.47px;
+  height: 30px;
+  left: 1118px;
+  top: 37px;
+
+  background: url(download.png);
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

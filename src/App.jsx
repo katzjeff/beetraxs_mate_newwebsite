@@ -1,13 +1,23 @@
-import { useState } from "react";
-
-import beetraxsapp from "./assets/logo_main.png";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Feature from "./components/Feature";
+import AboutUs from "./components/AboutUs";
+import WhatYouGet from "./components/WhatYouGet";
+import JoinUs from "./components/JoinUs";
+import Footer from "./components/Footer";
+import beetraxsapp from "./assets/logo_main.png";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
+      <Navbar />
+      <Hero />
+      <Feature />
+      <AboutUs />
+      <WhatYouGet />
+      <JoinUs />
+      <Footer />
       <div>
         <a href="https://www.beetraxsmate.com" target="_blank">
           <img src={beetraxsapp} className="logo" alt="beetraxs_logo" />
